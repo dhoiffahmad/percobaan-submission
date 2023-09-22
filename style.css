@@ -79,3 +79,14 @@ nav .cari {
   align-items: center;
   font-size: 30px;
 }
+
+/* RESPONSIFE */
+/* Mobile */
+@media only screen and (max-width: 600px) {
+}
+nav ul {
+  display: none;
+}
+/* Tablet */
+/* Laptop */
+/* Desktop */
