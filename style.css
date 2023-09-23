@@ -5,14 +5,14 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: #c99b9b;
+  background-color: rgba(16, 122, 19, 0.326);
 }
 
 nav {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1rem 9rem;
 }
 nav div img {
   width: 180px;
@@ -30,10 +30,10 @@ nav ul li a {
   font-family: "Segoe UI", sans-serif;
   font-weight: 600;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   transition: all;
   transition-duration: 300ms;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(8, 73, 33, 0);
 }
 
 nav ul li a:hover {
@@ -43,7 +43,7 @@ nav .cari-daftar li a {
   text-decoration: none;
   font-family: "Segoe UI", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 .hidden {
   display: f;
@@ -103,7 +103,7 @@ nav .cari-daftar li a {
   }
 }
 /* Tablet */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   nav .hidden {
     display: none;
   }
