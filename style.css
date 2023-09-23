@@ -20,7 +20,7 @@ nav div img {
 nav ul {
   display: flex;
   list-style: none;
-  align-items: center;
+  /* align-items: center; */
   gap: 2rem;
 }
 
@@ -45,10 +45,17 @@ nav .cari-daftar li a {
   font-weight: 600;
   font-size: 20px;
 }
+.hidden {
+  display: f;
+  align-items: center;
+  justify-content: flex-start;
+}
 .cari-daftar {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
+
 .cari {
   display: flex;
   align-items: center;
@@ -96,7 +103,7 @@ nav .cari-daftar li a {
   }
 }
 /* Tablet */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   nav .hidden {
     display: none;
   }
