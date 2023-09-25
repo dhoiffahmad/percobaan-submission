@@ -97,6 +97,12 @@ nav .cari-daftar li a {
 /* RESPONSIFE */
 /* Mobile */
 @media only screen and (max-width: 600px) {
+  /* body {
+    min-width: 400px;
+  } */
+  nav {
+    padding: 1rem 2rem;
+  }
   nav ul,
   nav .cari-daftar {
     display: none;
@@ -104,6 +110,9 @@ nav .cari-daftar li a {
 }
 /* Tablet */
 @media only screen and (max-width: 1400px) {
+  nav {
+    padding: 1rem 5rem;
+  }
   nav .hidden {
     display: none;
   }
